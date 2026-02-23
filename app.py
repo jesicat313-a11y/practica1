@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request
 import sqlite3
-
+import os 
 app = Flask(__name__)
 
 def obtener_conexion():
@@ -85,5 +85,7 @@ def consultar_saldo(cedula):
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+
 if __name__ == '__main__':
-    app.run(debug=True, port=8080)
+    port = int(os.environ.get("PORT", 8080))
+    app.run(host='0.0.0.0', port=port)
