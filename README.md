@@ -9,7 +9,7 @@ CONSTRUCCIÓN DE API
 - Base de datos  SQLite( Basedatos.py)
 Funcionalidades Implementadas
 - GET/usuarios: consulta total de usuarios registrados.
-images/db_lh.png
+![database_localhost](https://github.com/jesicat313-a11y/practica1/blob/33cf0cd2f286d5f16aaa49aa3ca152c31c11bb38/images/db_lh.png)
 ![local host](db_lh_por_usuario.png)
 - POST/usuarios: permite registrar usuarios
 ![prueba curl local host](imágenes/curl_lh.png)
