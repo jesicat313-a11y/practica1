@@ -30,7 +30,7 @@ Uso de branches
 
 ![Branch dev](https://github.com/jesicat313-a11y/practica1/blob/073092bfca3b78879f5616a3d420703fb3c043c4/images/branch_dev.png)
 
-Conenerización
+Contenerización
 
 ![Docker](https://github.com/jesicat313-a11y/practica1/blob/073092bfca3b78879f5616a3d420703fb3c043c4/images/docker.png)
 
